@@ -1,2 +1,13 @@
-cname: casaexp.ezequielschwartzman.org
-substrate: linear-web
+cname: webenv.ezequielschwartzman.org
+substrate: nothing-web
+
+colors:
+  alt:
+    hue: 35.1
+    saturation: 85.6
+
+fonts:
+  sans: 'Archivo:400,700'
+  serif: 'Alegreya SC'
+  mono: 'Fira Code'
+  fredoka: 'Fredoka One'
