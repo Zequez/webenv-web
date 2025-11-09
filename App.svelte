@@ -11,7 +11,7 @@
   {navBg}
   {favicon}
   {Guarda}
-  title="Web Colaborativa Barrio Punta Mogotes - Mar del Plata"
+  title="Web Environment - A Coding Field maintained by Ezequiel Schwartzman"
   nav={[
     ['index', 'handbook'],
     ['team', 'newsletter', 'funding'],
