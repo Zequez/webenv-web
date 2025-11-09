@@ -31,10 +31,10 @@
 </div>
 
 <DocPage>
-  <div class="bg-gray-300 b-3 b-red-600 rounded-2 w-full relative mb6">
+  <!-- <div class="bg-gray-300 b-3 b-red-600 rounded-2 w-full relative mb6">
     <div class="pt-[60%]"></div>
     <div class="absolute inset-0 flexcc">YouTube Video</div>
-  </div>
+  </div> -->
 
   <div class="mb6 flexcc">
     <span
@@ -44,8 +44,8 @@
   </div>
 
   <p>
-    Soverign Social Network Open Source Coding Environment Global Platform for
-    Cultural Shift
+    Soverign Social Network | Open Source Sandbox Coding Environment | Global
+    Platform for Cultural Shift That Works Offline
   </p>
 
   <h2>Ethos</h2>
@@ -84,8 +84,11 @@
     and that's what our computers run.
   </p>
   <p>
-    On the Web Environment <strong>there is no ownership.</strong>
-    Code is stewarded, grown, evolved and tended like a garden.
+    On the Web Environment <strong>there is no ownership.</strong> Code is more akin
+    to self-replicating life. The repositories where code evolves are stewarded and
+    tended like a garden. You either have write access to a public repository that
+    people rely on, or you don't. You either have the power to change who has write
+    access to a public repository, or you don't.
   </p>
   <p>
     On the Web Environment <strong>

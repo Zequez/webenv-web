@@ -89,6 +89,10 @@
         WebEnv-based websites for my neighbourhood and the regional agroecologic
         network using toroidal navigation
       </li>
+      <li>
+        Experimenting with scraping Startover 700+ websites and displaying them
+        using toroidal-navingation
+      </li>
 
       <li>Video overview of the Web Environment</li>
       <li>First experiment with canvas-based mainframe UI</li>

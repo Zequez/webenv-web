@@ -62,6 +62,10 @@
         target="_blank">Startover.xyz</a
       > websites
     </li>
+    <li>
+      Alternative strategies for publishing the static pages other than Github
+      Pages.
+    </li>
   </ul>
 
   <h2>Definitely much further in the future</h2>
@@ -74,5 +78,10 @@
       web-environment off-the-web communication channel. Also maybe use it's
       decentralized GIT system instead of relying on centralized Git.
     </li>
+    <li
+      >Sandboxing: is it even possible to safely run web-environment projects
+      from untrusted third parties? Or should you just run the published
+      projected version? Experimenting is may be needed.</li
+    >
   </ul>
 </DocPage>

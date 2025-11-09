@@ -1,7 +1,7 @@
 <script lang="ts">
   import { lsState, onTripleShift } from '@/center/utils/runes.svelte'
   import DiamondIcon from '~icons/fa6-solid/diamond'
-  import TLDrawWrapper from '../TLDrawWrapper.svelte'
+  // import TLDrawWrapper from '../TLDrawWrapper.svelte'
   import StoredTLDraw from '../StoredTLDraw.svelte'
   import banner from '../photos/banner.png'
   import { onMount } from 'svelte'
@@ -9,9 +9,9 @@
   let vGridEnabled = lsState('v-grid-enabled', { v: false })
   let container: HTMLDivElement = null!
 
-  onTripleShift(window, () => {
-    vGridEnabled.v = !vGridEnabled.v
-  })
+  // onTripleShift(window, () => {
+  //   vGridEnabled.v = !vGridEnabled.v
+  // })
 
   onMount(() => {
     console.log(container)
@@ -134,14 +134,14 @@
         <h2>The Architecture</h2>
       </div>
       <div class="h120 w-full mb6 relative z-1">
-        <TLDrawWrapper
+        <!-- <TLDrawWrapper
           tldrawKey="tldraw:architecture"
           tldrawValue={null}
           svgValue={null}
           onChange={(tlDrawValue, svgValue) => {
             console.log(tlDrawValue, svgValue)
           }}
-        />
+        /> -->
       </div>
       <div class="center-context">
         <h3>The Commons</h3>
