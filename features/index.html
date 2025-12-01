@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <title></title> -->
+    <!-- <link rel="icon" type="image/png" href="@@@/favicon.jpeg" /> -->
+    <!--[--><link rel="icon" type="image/jpg" href="/assets/tierra-icon-p_Dr3Bip.png"> <!--[!--><!--]--> <!--[!--><!--]--><!--]--><title>Web Environment - A Coding Field maintained by Ezequiel Schwartzman</title>
+    <script type="module" crossorigin src="/assets/index-CBMvhnpP.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Drs16eeI.css">
+  </head>
+  <body class="min-h-100vh">
+    <div id="root" class="size-full"><!--[--><div><!--[!--><!--]--></div> <div class="flex flex-col min-h-screen relative"><div><!----><div class="bg-main-50 text-gray-950 dark:bg-gray-950! dark:text-gray-100! overflow-hidden"><!----><!----><div class="max-w-screen-md mx-auto px6 doc pb12"><h1>Features</h1> <p>Here are the actual functionalities that are currently working.</p> <pre class="whitespace-pre-wrap">- Mainframe
+  - Electron-based UI for self-management of the Field
+    - Sub-Repo management
+      - Add new empty local sub-repos
+      - Clone to local sub-repos from a Git URL
+      - Bi-dimensional columns board for organizing repos
+      - Individual Sub-Repos
+        - Start/Stop dev server with port auto-assign
+        -
+    - Field-Repo management
+      - See field origin URL
+      - Check for updates, sync code
+      - See local changes; commit local changes
+      - See list of latest commits
+
+  - Field Management Local Servers
+    - GIT server
+    - SubRepo spinning server
+      Uses the Meta Vite Driver
+      Allows you to request turning on and off certain sub-repos dev servers
+      and it returns the localhost address with it's custom port
+      It also provides a websocket that notifies with a list of active servers
+      Saves the repos ports state and on/off state on a persisted file
+      and it re-starts the repos that were open when the server was last closed
+    - Tunneling server
+      Allows you to declare arbitrary files with
+      functions as individually callable from a
+      web client and get their return data or create
+      a websocket to continuosly stream them.
+      Individual repos may create tunnel files for their own purposes in order to
+      access the OS execution environment from the browser.
+      [Will also auto-generate typings for client-side code]
+    - Files server: Used on some places but soon to be deprecated by a Tunnels Library
+  - SubRepo Drivers System
+    - Meta Vite Driver
+      - UnoCSS with Tailwind, Icons, Fonts presets, and some in-house utilities
+      - Svelte
+      - Auto-Import plugin
+      - Shortcut path aliases for Local Field Libraries
+      - Iconify
+      - ImageTools
+      - YAML
+      - Svelte pre-rendering for building
+      - CNAME generator from wenv.yaml configuration file
+    - Publishing build to separate www branch for Github Pages
+
+- Curated Library
+  - Local Field Library
+    - Lives on @/center
+    - Common utility libraries
+      - Copy to clipboard
+      - Monitor Pinch Zoom for mobile
+      - Observers Shortcuts
+        - Observe Children Added-Removed
+        - Resize Observer
+      - Maximize Font Size
+      - onTripleKey
+      - Components
+        - Light/Dark Toggle
+        - Internationalization
+          - enes store and component
+      - Svelte
+        - Directives
+          - Set CSS Variables
+        - Stores
+          - LocalStorage-persisted State
+          - Draggable Handler
+    - Substrates
+
+      Substrates are interactive components
+      that facilitate a specific for a creative
+      experience. Substrates can take up
+      whole pages, or just specific parts.
+
+      - Linear Web
+      - Toroidal Web
+      - Navigatable Canvas Web
+      - Empty
+      - Toroidal Web
+      - ...«canvas» Sandbox
+      - ...TLDraw
+
+    - Visual Collections
+      - Generative
+
+        Parameterized canvas-based
+        pattern generators
+
+        - Starry Sky
+        - Grass
+        - Clouds
+        - UnderGrass
+
+      - Patterns and Textures
+      - SVG Separators
+
+
+  - External Library
+
+    The packages from package.json
+    The following is actually just pulled from the Field
+    as this Sub-Repo is running on the Web Environment.
+
+
+
+  </pre> <h2>From package.json</h2> <div class="text-3 flex flex-wrap"><!--[--><div class="w-1/2">@box2d/core: ^0.11.0</div><div class="w-1/2">@codemirror/theme-one-dark: ^6.1.3</div><div class="w-1/2">@elysiajs/static: ^1.3.0</div><div class="w-1/2">@iconify-json/fa6-brands: ^1.2.6</div><div class="w-1/2">@iconify-json/fa6-regular: ^1.2.3</div><div class="w-1/2">@iconify-json/fa6-solid: ^1.2.3</div><div class="w-1/2">@mdx-js/preact: ^3.1.0</div><div class="w-1/2">@mdx-js/rollup: ^3.1.0</div><div class="w-1/2">@modyfi/vite-plugin-yaml: ^1.1.1</div><div class="w-1/2">@preact/preset-vite: ^2.10.2</div><div class="w-1/2">@preact/signals-core: ^1.11.0</div><div class="w-1/2">@replit/codemirror-lang-svelte: ^6.0.0</div><div class="w-1/2">@sveltejs/vite-plugin-svelte: ^5.0.3</div><div class="w-1/2">@types/d3-force: ^3.0.10</div><div class="w-1/2">@types/mdx: ^2.0.13</div><div class="w-1/2">@types/react: ^19.2.0</div><div class="w-1/2">@types/react-dom: ^19.2.0</div><div class="w-1/2">@types/yargs: ^17.0.33</div><div class="w-1/2">chalk: ^5.4.1</div><div class="w-1/2">cheerio: ^1.1.2</div><div class="w-1/2">chokidar: ^4.0.3</div><div class="w-1/2">classnames: ^2.5.1</div><div class="w-1/2">diff: ^8.0.2</div><div class="w-1/2">directory-tree: ^3.5.2</div><div class="w-1/2">electron-context-menu: ^4.1.0</div><div class="w-1/2">isomorphic-git: ^1.34.0</div><div class="w-1/2">istextorbinary: ^9.5.0</div><div class="w-1/2">lodash: ^4.17.21</div><div class="w-1/2">mdsvex: ^0.12.6</div><div class="w-1/2">parse5: ^8.0.0</div><div class="w-1/2">preact: ^10.27.0</div><div class="w-1/2">prettier: ^3.5.3</div><div class="w-1/2">prettier-plugin-svelte: ^3.4.0</div><div class="w-1/2">purgecss: ^7.0.2</div><div class="w-1/2">react: ^19.1.1</div><div class="w-1/2">react-dom: ^19.1.1</div><div class="w-1/2">remark-frontmatter: ^5.0.0</div><div class="w-1/2">remark-mdx-frontmatter: ^5.2.0</div><div class="w-1/2">sharp: ^0.34.3</div><div class="w-1/2">svelte: ^5.28.2</div><div class="w-1/2">svelte-codemirror-editor: ^2.1.0</div><div class="w-1/2">svelte-i18n: ^4.0.1</div><div class="w-1/2">svelte-portal: ^2.2.1</div><div class="w-1/2">svelte-preprocess: ^6.0.3</div><div class="w-1/2">svelte-rune-markdown: ^0.0.2</div><div class="w-1/2">svooltip: ^0.9.0</div><div class="w-1/2">tldraw: ^4.0.2</div><div class="w-1/2">trash: ^9.0.0</div><div class="w-1/2">unimport: ^5.4.1</div><div class="w-1/2">unocss: ^66.5.9</div><div class="w-1/2">unplugin-auto-import: ^19.2.0</div><div class="w-1/2">unplugin-icons: ^22.1.0</div><div class="w-1/2">vite: ^6.3.5</div><div class="w-1/2">vite-imagetools: ^8.0.0</div><div class="w-1/2">vite-plugin-svelte-md: ^0.1.7</div><div class="w-1/2">wait-port: ^1.1.0</div><div class="w-1/2">yaml: ^2.8.1</div><div class="w-1/2">yargs: ^17.7.2</div><!--]--></div><!----></div><!----><!----></div><!----></div> <div id="nav-start"></div> <div class="print:hidden sticky flex-shrink-0 bottom-0 flexcc overflow-hidden w-full z-99 min-h6"><span class="absolute inset-0 pointer-events-none b-t-1 b-b-1 b-black/20 dark:b-white/50"></span> <a href="#nav-start" class="relative flexcc w-full h-full"><!--[!--><span class="font-serif block w-full h-full bg-gray-800 text-white flexcc">Web Environment - A Coding Field maintained by Ezequiel Schwartzman</span><!--]--></a></div><!----> <!--[--><div class="relative print:hidden flex-grow"><!--[!--><!--]--> <div class="relative z-10"><!--[!--><!--]--></div></div><!--]--> <!--[!--><!--]--><!----></div><!--]--></div>
+  </body>
+</html>
